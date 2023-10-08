@@ -32,8 +32,11 @@ float convertKGtoLBS(float kg);
 float convertLBStoKG(float lbs);
 float convertCLtoUSOZ(float cl);
 float convertCLtoUKOZ(float cl);
+float convertCLtoUKPint(float cl);
 float convertUSOZtoCL(float usoz);
 float convertUKOZtoCL(float ukoz);
+float convertUKPinttoCL(float ukoz);
+
 
 float reduceFloatPrecision(float f, int dec);
 char* convertFloatToString(float f, char* buf, int dec = 2);
