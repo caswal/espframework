@@ -35,8 +35,10 @@ float convertLBStoKG(float lbs) {
 
 float convertCLtoUSOZ(float cl) { return cl * 0.34; }
 float convertCLtoUKOZ(float cl) { return cl == 0.0 ? 0.0 : cl / 2.84; }
+float convertCLtoUKPint(float cl) { return cl * 0.0175975; }
 float convertUSOZtoCL(float usoz) { return usoz == 0.0 ? 0.0 : usoz / 0.34; }
 float convertUKOZtoCL(float ukoz) { return ukoz * 2.84; }
+float convertUKPinttoCL(float ukoz) { return ukoz * 56.8261; }
 
 float reduceFloatPrecision(float f, int dec) {
   char buffer[10];
